@@ -1,0 +1,24 @@
+{
+  "name": "media-compressor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "one": "ts-node index.ts",
+    "dev": "nodemon --exec ts-node index.ts",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "@types/sharp": "^0.31.1",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "sharp": "^0.31.3",
+    "zlib": "^1.0.5"
+  }
+}
